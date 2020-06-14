@@ -2,5 +2,12 @@
 
 Sharing my notes of LeetCode exercises. Writing in Python3.
 
+## String
+
+[1190. Reverse Substrings Between Each Pair of Parentheses](./String/1190. Reverse Substrings Between Each Pair of Parentheses.py)
+
 ## Array
-[59. Spiral Matrix II](https://github.com/Wenzhi-Ding/Notes-LeetCode/blob/master/Array/Q59_Spiral_Matrix_II.md)
+[59. Spiral Matrix II](./Array/59. Spiral Matrix II.ipynb)
+
+[907. Sum of Subarray Minimums](./Array/907. Sum of Subarray Minimums/ipynb)
+
