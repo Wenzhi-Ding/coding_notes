@@ -11,3 +11,6 @@ Sharing my notes of LeetCode exercises. Writing in Python3.
 
 [907. Sum of Subarray Minimums](./Array/907_Sum_of_Subarray_Minimums.ipynb)
 
+## Dynamic Programming
+
+[9999. Complicate Probabilities](./Dynamic_Programming/9999_complicate_probability.py)
