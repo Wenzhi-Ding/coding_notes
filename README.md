@@ -1,16 +1,16 @@
-# Notes on LeetCode
+# Coding Notes
 
-Sharing my notes of LeetCode exercises. Writing in Python3.
+分享我的代码练习（主要是为了方便自己以后参考），以下只列举一些个人觉得比较好的
 
-## String
+[ToC]
 
-[1190. Reverse Substrings Between Each Pair of Parentheses](./String/1190_Reverse_Substrings_Between_Each_Pair_of_Parentheses.py)
+## 数组/矩阵 Array/Matrix
+- [M210116 Monte Carlo](./Other Source/M210116_Monte_Carlo.py)：通过矩阵运算极大的加速大规模的模拟
 
-## Array
-[59. Spiral Matrix II](./Array/59_Spiral_Matrix_II.ipynb)
+## 动态规划 Dynamic Programming
 
-[907. Sum of Subarray Minimums](./Array/907_Sum_of_Subarray_Minimums.ipynb)
+- [M210114 Complicate Probability](./Other Source/M210114_Complicate_Probability.py)：三维的动态规划问题
 
-## Dynamic Programming
+## 回溯法 Backtracking
 
-[9999. Complicate Probabilities](./Dynamic_Programming/9999_complicate_probability.py)
+- [L0044 Wildcard Matching](./Leetcode/L0044_wildcard-matching.py)：体现了回溯法在正确的剪枝思路下的简洁和效率

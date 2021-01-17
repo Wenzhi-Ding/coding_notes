@@ -48,3 +48,22 @@ for i in range(L, K + 1):  # 加总所有暴击次数大于等于11的情况的�
 print(result)
 
 
+# for i in range(K):
+#     for j in range(M):
+#         _ = f(6, i, j)
+# print(arr[6])
+
+
+### 杨天问的更优解
+
+import numpy as np
+
+P = 0.45; T = 23; Count = 11; Cont = 4
+arr = np.zeros((T + 1, T + 1, Cont + 1))
+arr[1][1][0] , arr[1][0][1] = P, 1 - P
+
+for t in range(2, T + 1):
+    arr[t][:t + 1, 1:Cont + 1] = arr[t - 1][:t + 1, :Cont] * (1 - P)
+    arr[t][1:t + 1, 0] = np.sum(arr[t - 1][0:t, :Cont], axis=1) * P
+
+print(np.sum(arr[23][Count:, :Cont]))
