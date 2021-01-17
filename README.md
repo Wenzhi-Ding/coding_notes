@@ -5,11 +5,11 @@
 [ToC]
 
 ## 数组/矩阵 Array/Matrix
-- [M210116 Monte Carlo](./Other Source/M210116_Monte_Carlo.py)：通过矩阵运算极大的加速大规模的模拟
+- [M210116 Monte Carlo](./Other_Source/M210116_Monte_Carlo.py)：通过矩阵运算极大的加速大规模的模拟
 
 ## 动态规划 Dynamic Programming
 
-- [M210114 Complicate Probability](./Other Source/M210114_Complicate_Probability.py)：三维的动态规划问题
+- [M210114 Complicate Probability](./Other_Source/M210114_Complicate_Probability.py)：三维的动态规划问题
 
 ## 回溯法 Backtracking
 
