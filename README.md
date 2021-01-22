@@ -9,7 +9,8 @@
 
 ## 动态规划 Dynamic Programming
 
-- [M210114 Complicate Probability](./Other_Source/M210114_Complicate_Probability.py)：三维的动态规划问题
+- [M210114 Complicate Probability](./Other_Source/M210114_Complicate_Probability.py)：三维的动态规划，计算复杂的概率问题
+- [M210122 Chocolate Game](./Other_Source/USC_DSO570_Chocolate_Game/Chocolate_Game_Solver.py): 二维动态规划，模拟机票、酒店的最优定价模型，计算最大期望收益
 
 ## 回溯法 Backtracking
 
