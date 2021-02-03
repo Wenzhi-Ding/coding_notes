@@ -5,9 +5,6 @@ from functools import lru_cache
 # Runtime: 64 ms (89.70%)
 # Memory: 14.3 MB (81.64%)
 
-counter = 0
-
-
 def shoppingOffers(price, special, needs):
     l = len(price)
 
@@ -17,14 +14,12 @@ def shoppingOffers(price, special, needs):
     # @lru_cache(None)  # 标准的DP应该用这个，但这个问题剪枝后用不上了，主要在于index的引入，缓存也更节省
     def min_price_func(corr, index):
         min_price = sum([price[i] * corr[i] for i in range(l)])  # 初始化，以直接购买为基准。这里是第一个优化关键！
-        print(corr, index, min_price)
 
         for _index, offer in enumerate(special[index:]):  # 此处是第二个优化关键
             # index前的offer在大的问题上都没法用，就更不用在小一层的问题上检索了
             if any(offer[i] > corr[i] for i in range(l)): continue
             prev_corr = [corr[i] - offer[i] for i in range(l)]
             min_price = min(min_price_func(prev_corr, _index) + offer[-1], min_price)
-        print(min_price)
         return min_price
 
     return min_price_func(needs, 0)
