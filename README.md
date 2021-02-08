@@ -16,3 +16,11 @@
 ## 回溯法 Backtracking
 
 - [L0044 Wildcard Matching](./Leetcode/L0044_wildcard-matching.py)：体现了回溯法在正确的剪枝思路下的简洁和效率
+
+## 算法复现 Algorithm Replication
+
+- [M210207 Bisect](./Other_Source/M210207_bisect.py): 二分查找，复现Python自带的`bisect.bisect_left`和`bisect.bisect_right`。
+
+## 数据结构复现 Data Structure Replication
+
+[TBD]
