@@ -44,16 +44,13 @@ def minTrioDegree(n, edges):
     nodes = sorted([[len(graph[x]), x] for x in graph])  # nds的每个元素是[点的度数, 点的连通集]
     edges = sorted([[len(graph[x]) + len(graph[y]), x, y] for x, y in edges])  # nnds的每个元素是[边的总度数, 节点1连通集, 节点2连通集]
     ans = n * 3 + 1
-    counter = 0
     for ed, x, y in edges:
         if ed >= ans: break  # 边的度数已经大于目前最小返回值了，结束遍历。因为是排过序的，后面只会比前面更大
         for nd, z in nodes:
-            counter += 1
             if ed + nd >= ans:  break  # 同上
             if z in graph[x] and z in graph[y]:
                 ans = min(ans, ed + nd)
                 break
-    print(counter)
     return ans - 6 if ans < n * 3 + 1 else -1
 
 
