@@ -30,3 +30,7 @@
     - 堆队列[TBD]
     - 生成器[TBD]
     - 二叉树[TBD]
+
+## 数学 Math
+1. 抽样 Sampling
+	- [M210216 Poker Probabilities](./30_Other_Source/M210216-poker-probabilities.py)：在做模拟的时候要关注概率分布。扑克牌的玩法中多数为不放回抽样，如果直接用均匀分布或正态分布去模拟，就会算出错误的结果。
