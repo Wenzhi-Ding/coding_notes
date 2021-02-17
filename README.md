@@ -16,6 +16,8 @@
 1. 二分查找 Binary Search
 	- [M210207 Bisect](./00_Algorithm/M210207_bisect.py)：二分查找，复现Python自带的`bisect.bisect_left`和`bisect.bisect_right`。
 	- [L1760 Minimum Limit of Balls in a Bag](./10_LeetCode/L1760-minimum-limit-of-balls-in-a-bag.py)：二分查找的实际应用。查找的逻辑不一定是简单的数值比较。只要有目标函数、序列有单调性，都可以二分查找。
+1. 滑窗 Sliding Window
+    - [L0995 Minimum Number of K Consecutive Bit Flips](./10_LeetCode/L0995-minimum-number-of-k-consecutive-bit-flips.py)：数组长度N，窗口长度K。纯模拟操作O(NK)，优化成滑窗则变为O(N)。（纪念第一次自己想的算法在LeetCode Hard中拿到100%排名\^\_\^）
 
 
 ## 数据结构 Data Structure
