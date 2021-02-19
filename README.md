@@ -5,6 +5,8 @@
 ## 算法 Algorithm
 1. 深度优先搜索 Depth-First-Search
 	- [LI0408 First Common Ancestor](./10_LeetCode/LI0408-first-common-ancestor-lcci.py)：用递归写DFS的简洁性（5行 vs. 30行）。
+1. 广度优先搜索 Breadth-First-Search
+    - [L1162 As Far from Land as Possible](./10_LeetCode/L1162-as-far-from-land-as-possible.py)：一个BFS（层序遍历）的样例。
 1. 动态规划 Dynamic Programming
 	- [M210114 Complicate Probability](./30_Other_Source/M210114_Complicate_Probability.py)：三维的动态规划，计算复杂的概率问题。
 	- [M210122 Chocolate Game](./20_Tutorial/USC_DSO570_Chocolate_Game): 二维动态规划，模拟机票、酒店的最优定价模型，计算最大期望收益。
@@ -14,15 +16,15 @@
 1. 线性规划 Linear Programming
     - [M210211 Filatoi Riuniti](./20_Tutorial/USC_DSO570_Filatoi_Riuniti)：线性规划及其敏感性分析的经典例题。
 1. 二分查找 Binary Search
-	- [M210207 Bisect](./00_Algorithm/M210207_bisect.py)：二分查找，复现Python自带的`bisect.bisect_left`和`bisect.bisect_right`。
+	- [M210207 Bisect](./00_Algorithm/M210207_bisect.py)：复现Python自带的`bisect.bisect_left`和`bisect.bisect_right`。
 	- [L1760 Minimum Limit of Balls in a Bag](./10_LeetCode/L1760-minimum-limit-of-balls-in-a-bag.py)：二分查找的实际应用。查找的逻辑不一定是简单的数值比较。只要有目标函数、序列有单调性，都可以二分查找。
 1. 滑窗 Sliding Window
-    - [L0995 Minimum Number of K Consecutive Bit Flips](./10_LeetCode/L0995-minimum-number-of-k-consecutive-bit-flips.py)：数组长度N，窗口长度K。纯模拟操作O(NK)，优化成滑窗则变为O(N)。（纪念第一次自己想的算法在LeetCode Hard中拿到100%排名\^\_\^）
+    - [L0995 Minimum Number of K Consecutive Bit Flips](./10_LeetCode/L0995-minimum-number-of-k-consecutive-bit-flips.py)：数组长度N，窗口长度K。纯模拟操作O(NK)，优化成滑窗则变为O(N)。
 
 
 ## 数据结构 Data Structure
 1. 数组/矩阵 Array/Matrix
-	- [M210116 Monte Carlo](./30_Other_Source/M210116_Monte_Carlo.py)：通过矩阵运算极大的加速大规模的模拟。
+	- [M210116 Monte Carlo](./30_Other_Source/M210116_Monte_Carlo.py)：通过矩阵运算极大的加速大规模模拟（要求运算逻辑可向量化）。
 1. 图 Graph
 	- [L1761 Minimum Degree of a Connected Trio in a Graph](./10_LeetCode/L1761-minimum-degree-of-a-connected-trio-in-a-graph.py)：1）用矩阵存储图的信息可以比较高效使用；2）一个好用的排序+剪枝的思路和写法。
 1. 堆 Heap
@@ -35,4 +37,4 @@
 
 ## 数学 Math
 1. 抽样 Sampling
-	- [M210216 Poker Probabilities](./30_Other_Source/M210216-poker-probabilities.py)：在做模拟的时候要关注概率分布。扑克牌的玩法中多数为不放回抽样，如果直接用均匀分布或正态分布去模拟，就会算出错误的结果。
+	- [M210216 Poker Probabilities](./30_Other_Source/M210216-poker-probabilities.py)：在做模拟的时候要关注概率分布及动态变化。扑克牌的玩法中多数为不放回抽样，如果直接用均匀分布或正态分布去模拟，就会算出错误的结果。
