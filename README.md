@@ -7,14 +7,15 @@
 	- [LI0408 First Common Ancestor](./10_LeetCode/LI0408-first-common-ancestor-lcci.py)：用递归写DFS的简洁性（5行 vs. 30行）。
 1. 广度优先搜索 Breadth-First-Search
     - [L1162 As Far from Land as Possible](./10_LeetCode/L1162-as-far-from-land-as-possible.py)：一个BFS（层序遍历）的样例。
+    - [TODO]()：BFS的一般实现。
 1. 动态规划 Dynamic Programming
 	- [M210114 Complicate Probability](./30_Other_Source/M210114_Complicate_Probability.py)：三维的动态规划，计算复杂的概率问题。
-	- [M210122 Chocolate Game](./20_Tutorial/USC_DSO570_Chocolate_Game): 二维动态规划，模拟机票、酒店的最优定价模型，计算最大期望收益。
+	- [M210122 Chocolate Game](./20_Tutorial/USC_DSO570_Analytics_Edge/Chocolate_Game): 二维动态规划，模拟机票、酒店的最优定价模型，计算最大期望收益。
 	- [L0638 Shopping Offers](./10_LeetCode/L0638-shopping-offers.py)：1）用`lru_cache`的装饰器来简化DP的编写；2）更重要的是体现了合理剪枝的威力。
 1. 回溯法 Backtracking
 	- [L0044 Wildcard Matching](./10_LeetCode/L0044_wildcard-matching.py)：体现了回溯法在正确的剪枝思路下的简洁和效率。
 1. 线性规划 Linear Programming
-    - [M210211 Filatoi Riuniti](./20_Tutorial/USC_DSO570_Filatoi_Riuniti)：线性规划及其敏感性分析的经典例题。
+    - [M210211 Filatoi Riuniti](./20_Tutorial/USC_DSO570_Analytics_Edge/Filatoi_Riuniti)：线性规划及其敏感性分析的经典例题。
 1. 二分查找 Binary Search
 	- [M210207 Bisect](./00_Algorithm/M210207_bisect.py)：复现Python自带的`bisect.bisect_left`和`bisect.bisect_right`。
 	- [L1760 Minimum Limit of Balls in a Bag](./10_LeetCode/L1760-minimum-limit-of-balls-in-a-bag.py)：二分查找的实际应用。查找的逻辑不一定是简单的数值比较。只要有目标函数、序列有单调性，都可以二分查找。
@@ -26,14 +27,18 @@
 1. 数组/矩阵 Array/Matrix
 	- [M210116 Monte Carlo](./30_Other_Source/M210116_Monte_Carlo.py)：通过矩阵运算极大的加速大规模模拟（要求运算逻辑可向量化）。
 1. 图 Graph
-	- [L1761 Minimum Degree of a Connected Trio in a Graph](./10_LeetCode/L1761-minimum-degree-of-a-connected-trio-in-a-graph.py)：1）用矩阵存储图的信息可以比较高效使用；2）一个好用的排序+剪枝的思路和写法。
+	- [L1761 Minimum Degree of a Connected Trio in a Graph](./10_LeetCode/L1761-minimum-degree-of-a-connected-trio-in-a-graph.py)：1）用矩阵存储图的信息可能可以高效（但要看情况，反例见[L1766](./10_LeetCode/L1766-tree-of-coprimes.py)）；2）一个好用的排序+剪枝的思路和写法。
 1. 堆 Heap
 	- [L0703 Kth Largest Element in a Stream](./10_LeetCode/L0703-kth-largest-element-in-a-stream.py)：一道基础的堆队列题目。
 	- [L1675 Minimize Deviation in Array](./10_LeetCode/L1675-minimize-deviation-in-array.py) ：1）体现了复杂问题的优化首先应从数学本质的角度思考；2）体现了堆队列处理最大最小值问题的时间效率性。
+1. 栈 Stack
+    - [L1766 Tree of Coprimes](./10_LeetCode/L1766-tree-of-coprimes.py)：1）栈+DFS的样例，也涉及了树的存储问题；2）重要思路：根据数据量选择突破口。
+      - TODO：递归解法
 1. 数据结构复现 Data Structure Replication
     - 堆队列[TBD]
     - 生成器[TBD]
     - 二叉树[TBD]
+    - 栈[TBD]
 
 ## 数学 Math
 1. 抽样 Sampling
