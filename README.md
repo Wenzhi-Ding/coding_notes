@@ -39,6 +39,10 @@
     - 生成器[TBD]
     - 二叉树[TBD]
     - 栈[TBD]
+    - LRU Cache：一种带有清退机制的缓存结构。1、O(1)时间基本实现（[L0146 LRU Cache](./10_LeetCode/L0146-lru-cache.py)）；2、装饰器实现[TBD]。
+    - 集合 Collections
+      - OrderedDict[TBD]
+      - DefaultDict[TBD]
 
 ## 数学 Math
 1. 抽样 Sampling
