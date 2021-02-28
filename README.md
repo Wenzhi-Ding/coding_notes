@@ -16,6 +16,8 @@
 	- [L0044 Wildcard Matching](./10_LeetCode/L0044_wildcard-matching.py)：体现了回溯法在正确的剪枝思路下的简洁和效率。
 1. 线性规划 Linear Programming
     - [M210211 Filatoi Riuniti](./20_Tutorial/USC_DSO570_Analytics_Edge/Filatoi_Riuniti)：线性规划及其敏感性分析的经典例题。
+1. 非线性规划 Non-linear Programming
+    - [M210227 Endurance Investor](./20_Tutorial/USC_DSO570_Analytics_Edge/Endurance_Investor)：需要考虑可行边界的问题。
 1. 二分查找 Binary Search
 	- [M210207 Bisect](./00_Algorithm/M210207_bisect.py)：复现Python自带的`bisect.bisect_left`和`bisect.bisect_right`。
 	- [L1760 Minimum Limit of Balls in a Bag](./10_LeetCode/L1760-minimum-limit-of-balls-in-a-bag.py)：二分查找的实际应用。查找的逻辑不一定是简单的数值比较。只要有目标函数、序列有单调性，都可以二分查找。
@@ -26,6 +28,7 @@
 ## 数据结构 Data Structure
 1. 数组/矩阵 Array/Matrix
 	- [M210116 Monte Carlo](./30_Other_Source/M210116_Monte_Carlo.py)：通过矩阵运算极大的加速大规模模拟（要求运算逻辑可向量化）。
+	- [L1774 Closest Dessert Cost.](./10_LeetCode/L1774-closest-dessert-cost.py)：快速且占用小地枚举所有子集
 1. 图 Graph
 	- [L1761 Minimum Degree of a Connected Trio in a Graph](./10_LeetCode/L1761-minimum-degree-of-a-connected-trio-in-a-graph.py)：1）用矩阵存储图的信息可能可以高效（但要看情况，反例见[L1766](./10_LeetCode/L1766-tree-of-coprimes.py)）；2）一个好用的排序+剪枝的思路和写法。
 1. 堆 Heap
@@ -34,12 +37,16 @@
 1. 栈 Stack
     - [L1766 Tree of Coprimes](./10_LeetCode/L1766-tree-of-coprimes.py)：1）栈+DFS的样例，也涉及了树的存储问题；2）重要思路：根据数据量选择突破口。
       - TODO：递归解法
+    - [L1776 Car Fleet II](./10_LeetCode/L1776-car-fleet-ii.py)：一个单调栈的好例子，为以下问题提供了参考：1）什么时候可以用栈？2）怎么从问题中提炼出栈的维护规则？3）栈在Python中的正确使用姿势。
 1. 数据结构复现 Data Structure Replication
     - 堆队列[TBD]
     - 生成器[TBD]
     - 二叉树[TBD]
     - 栈[TBD]
-    - LRU Cache：一种带有清退机制的缓存结构。1、O(1)时间基本实现（[L0146 LRU Cache](./10_LeetCode/L0146-lru-cache.py)）；2、装饰器实现[TBD]。
+    - 双向链表
+      - LRU Cache：一种带有清退机制的缓存结构。
+        - O(1)时间基本实现（[L0146 LRU Cache](./10_LeetCode/L0146-lru-cache.py)）[TBD]
+        - 装饰器实现[TBD]。
     - 集合 Collections
       - OrderedDict[TBD]
       - DefaultDict[TBD]
