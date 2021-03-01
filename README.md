@@ -28,7 +28,8 @@
 ## 数据结构 Data Structure
 1. 数组/矩阵 Array/Matrix
 	- [M210116 Monte Carlo](./30_Other_Source/M210116_Monte_Carlo.py)：通过矩阵运算极大的加速大规模模拟（要求运算逻辑可向量化）。
-	- [L1774 Closest Dessert Cost.](./10_LeetCode/L1774-closest-dessert-cost.py)：快速且占用小地枚举所有子集
+	- [L1774 Closest Dessert Cost.](./10_LeetCode/L1774-closest-dessert-cost.py)：快速且占用小地枚举所有子集。
+	- [L0303 Range Sum Query Immutable](./10_LeetCode/L0303-range-sum-query-immutable.py)：通过对数组的预处理来简化需要大量重复的调用。
 1. 图 Graph
 	- [L1761 Minimum Degree of a Connected Trio in a Graph](./10_LeetCode/L1761-minimum-degree-of-a-connected-trio-in-a-graph.py)：1）用矩阵存储图的信息可能可以高效（但要看情况，反例见[L1766](./10_LeetCode/L1766-tree-of-coprimes.py)）；2）一个好用的排序+剪枝的思路和写法。
 1. 堆 Heap

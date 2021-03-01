@@ -10,7 +10,7 @@ class Solution:
     def closestCost(self, baseCosts, toppingCosts, target):
 
         # 穷举
-        toppingSum = set([0])
+        toppingSum = {0,}
         for i in toppingCosts * 2:  # 快速求排列组合
             toppingSum |= set([s + i for s in toppingSum])
         toppingSum = sorted(list(toppingSum))

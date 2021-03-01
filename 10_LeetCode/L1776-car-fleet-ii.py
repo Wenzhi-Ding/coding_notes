@@ -1,9 +1,13 @@
 # https://leetcode-cn.com/problems/car-fleet-ii/
 
 # Python中用列表做栈，官方推荐的使用是将尾部视作栈顶，如此
-# stack.pop() = list.pop()
-# stack.push() = list.append()
-# stack.top() = list[-1]
+# stack.pop() = list.pop() -> O(1)
+# stack.push(i) = list.append(i) -> O(1)
+# stack.top() = list[-1] -> O(1)
+# 如果反过来用
+# stack.pop() = list.pop(0) -> O(n)
+# stack.push() = list.insert(0, i) -> O(n)
+# stack.top() = list[0] -> O(1)
 
 # 本题的关键在于想明白两点
 # 1、追到后，后车等于消失（再也与计算无关了）
