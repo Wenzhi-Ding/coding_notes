@@ -2,7 +2,6 @@
 
 class Solution:
     def findAllConcatenatedWordsInADict(self, words):
-
         words = sorted(words, key=lambda x: len(x))
 
         pos_dict = {len(w): k + 1 for k, w in enumerate(words)}

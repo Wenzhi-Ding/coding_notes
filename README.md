@@ -31,16 +31,27 @@
 1. 数组/矩阵 Array/Matrix
 	- [M210116 Monte Carlo](./30_Other_Source/M210116_Monte_Carlo.py)：通过矩阵运算极大的加速大规模模拟（要求运算逻辑可向量化）。
 	- [L1774 Closest Dessert Cost.](./10_LeetCode/L1774-closest-dessert-cost.py)：快速且占用小地枚举所有子集。
-	- [L0303 Range Sum Query Immutable](./10_LeetCode/L0303-range-sum-query-immutable.py)：通过对数组的预处理来简化需要大量重复的调用。
+	- [L0303 Range Sum Query Immutable](./10_LeetCode/L0303-range-sum-query-immutable.py)：通过对数组的预处理（前缀和）来简化需要大量重复的调用。（二维前缀和：[L0304](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)）
+	
 1. 图 Graph
+	
 	- [L1761 Minimum Degree of a Connected Trio in a Graph](./10_LeetCode/L1761-minimum-degree-of-a-connected-trio-in-a-graph.py)：1）用矩阵存储图的信息可能可以高效（但要看情况，反例见[L1766](./10_LeetCode/L1766-tree-of-coprimes.py)）；2）一个好用的排序+剪枝的思路和写法。
+	
 1. 堆 Heap
 	- [L0703 Kth Largest Element in a Stream](./10_LeetCode/L0703-kth-largest-element-in-a-stream.py)：一道基础的堆队列题目。
 	- [L1675 Minimize Deviation in Array](./10_LeetCode/L1675-minimize-deviation-in-array.py) ：1）体现了复杂问题的优化首先应从数学本质的角度思考；2）体现了堆队列处理最大最小值问题的时间效率性。
+	
 1. 栈 Stack
     - [L1766 Tree of Coprimes](./10_LeetCode/L1766-tree-of-coprimes.py)：1）栈+DFS的样例，也涉及了树的存储问题；2）重要思路：根据数据量选择突破口。
       - TODO：递归解法
     - [L1776 Car Fleet II](./10_LeetCode/L1776-car-fleet-ii.py)：一个单调栈的好例子，为以下问题提供了参考：1）什么时候可以用栈？2）怎么从问题中提炼出栈的维护规则？3）栈在Python中的正确使用姿势。
+    
+1. 字典树 Trie
+
+    - [L0208 Implement Trie Prefix Tree](./10_LeetCode/L0208-implement-trie-prefix-tree.py)：前缀字典树的基础实现。
+
+    - [L0472 Concatenated Words](L0472-concatenated-words.py)：还没学会。
+
 1. 数据结构复现 Data Structure Replication
     - 堆队列[TBD]
     - 生成器[TBD]
