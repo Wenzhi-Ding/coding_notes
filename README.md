@@ -20,7 +20,7 @@
     - [M210227 Endurance Investor](./20_Tutorial/USC_DSO570_Analytics_Edge/Endurance_Investor)：需要考虑可行边界的问题。
 1. 二分查找 Binary Search
 	- [M210207 Bisect](./00_Algorithm/M210207_bisect.py)：复现Python自带的`bisect.bisect_left`和`bisect.bisect_right`。
-	- [L1760 Minimum Limit of Balls in a Bag](./10_LeetCode/L1760-minimum-limit-of-balls-in-a-bag.py)：二分查找的实际应用。查找的逻辑不一定是简单的数值比较。只要有目标函数、序列有单调性，都可以二分查找。
+	- [L1760 Minimum Limit of Balls in a Bag](./10_LeetCode/L1760-minimum-limit-of-balls-in-a-bag.py)：二分查找的实际应用。查找的逻辑不一定是简单的数值比较。只要有目标函数、序列有单调性，都可以二分查找。（其他相关：[L0354](./10_LeetCode/L0354-russian-doll-envelopes.py)）
 1. 滑窗 Sliding Window
     - [L0995 Minimum Number of K Consecutive Bit Flips](./10_LeetCode/L0995-minimum-number-of-k-consecutive-bit-flips.py)：数组长度N，窗口长度K。纯模拟操作O(NK)，优化成滑窗则变为O(N)。
 1. 双指针 Two Pointers
@@ -34,7 +34,6 @@
 	- [L0303 Range Sum Query Immutable](./10_LeetCode/L0303-range-sum-query-immutable.py)：通过对数组的预处理（前缀和）来简化需要大量重复的调用。（二维前缀和：[L0304](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)）
 	
 1. 图 Graph
-	
 	- [L1761 Minimum Degree of a Connected Trio in a Graph](./10_LeetCode/L1761-minimum-degree-of-a-connected-trio-in-a-graph.py)：1）用矩阵存储图的信息可能可以高效（但要看情况，反例见[L1766](./10_LeetCode/L1766-tree-of-coprimes.py)）；2）一个好用的排序+剪枝的思路和写法。
 	
 1. 堆 Heap
@@ -44,12 +43,10 @@
 1. 栈 Stack
     - [L1766 Tree of Coprimes](./10_LeetCode/L1766-tree-of-coprimes.py)：1）栈+DFS的样例，也涉及了树的存储问题；2）重要思路：根据数据量选择突破口。
       - TODO：递归解法
-    - [L1776 Car Fleet II](./10_LeetCode/L1776-car-fleet-ii.py)：一个单调栈的好例子，为以下问题提供了参考：1）什么时候可以用栈？2）怎么从问题中提炼出栈的维护规则？3）栈在Python中的正确使用姿势。
+    - [L1776 Car Fleet II](./10_LeetCode/L1776-car-fleet-ii.py)：一个单调栈的好例子，为以下问题提供了参考：1）什么时候可以用栈？2）怎么从问题中提炼出栈的维护规则？3）栈在Python中的正确使用姿势。（其他相关：[L0496](./10_LeetCode/L0496-next-greater-element-i.py)）
     
 1. 字典树 Trie
-
     - [L0208 Implement Trie Prefix Tree](./10_LeetCode/L0208-implement-trie-prefix-tree.py)：前缀字典树的基础实现。
-
     - [L0472 Concatenated Words](L0472-concatenated-words.py)：还没学会。
 
 1. 数据结构复现 Data Structure Replication

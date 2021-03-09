@@ -22,6 +22,7 @@ class Solution:
 
 num = 2  # [0,1,1]
 num = 5  # [0,1,1,2,1,2]
+num = 85723
 
 sol = Solution()
 print(sol.countBits(num))
