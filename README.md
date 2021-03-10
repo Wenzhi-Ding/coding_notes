@@ -42,9 +42,9 @@
 	
 1. 栈 Stack
     - [L1766 Tree of Coprimes](./10_LeetCode/L1766-tree-of-coprimes.py)：1）栈+DFS的样例，也涉及了树的存储问题；2）重要思路：根据数据量选择突破口。
-      - TODO：递归解法
     - [L1776 Car Fleet II](./10_LeetCode/L1776-car-fleet-ii.py)：一个单调栈的好例子，为以下问题提供了参考：1）什么时候可以用栈？2）怎么从问题中提炼出栈的维护规则？3）栈在Python中的正确使用姿势。（其他相关：[L0496](./10_LeetCode/L0496-next-greater-element-i.py)）
-    
+    - [L0224 Basic Calculator](./10_LeetCode/L0224-basic-calculator.py)：用栈以更高的效率实现等价于递归的操作（而且写起来比递归简单）。
+
 1. 字典树 Trie
     - [L0208 Implement Trie Prefix Tree](./10_LeetCode/L0208-implement-trie-prefix-tree.py)：前缀字典树的基础实现。
     - [L0472 Concatenated Words](L0472-concatenated-words.py)：还没学会。
