@@ -1,13 +1,13 @@
 # Coding Notes
 
-分享我的代码练习（主要是为了方便自己以后参考），以下只列举一些个人觉得比较好的。
+分享我的代码练习（主要是为了方便自己以后参考），以下只列举一些个人觉得比较好的题目，会不定期增删。
 
 ## 算法 Algorithm
 1. 深度优先搜索 Depth-First-Search
 	- [LI0408 First Common Ancestor](./10_LeetCode/LI0408-first-common-ancestor-lcci.py)：用递归写DFS的简洁性（5行 vs. 30行）。
+	- [L0322 Coin Change](./10_LeetCode/L0322-coin-change.py)：同样是动态规划，要因地制宜的考虑状态转移的方式。DFS可以更快的接近目标。
 1. 广度优先搜索 Breadth-First-Search
     - [L1162 As Far from Land as Possible](./10_LeetCode/L1162-as-far-from-land-as-possible.py)：一个BFS（层序遍历）的样例。
-    - [TODO]()：BFS的一般实现。
 1. 动态规划 Dynamic Programming
 	- [M210114 Complicate Probability](./30_Other_Source/M210114_Complicate_Probability.py)：三维的动态规划，计算复杂的概率问题。
 	- [M210122 Chocolate Game](./20_Tutorial/USC_DSO570_Analytics_Edge/Chocolate_Game): 二维动态规划，模拟机票、酒店的最优定价模型，计算最大期望收益。
