@@ -34,6 +34,7 @@
 	- [L0303 Range Sum Query Immutable](./10_LeetCode/L0303-range-sum-query-immutable.py)：通过对数组的预处理（前缀和）来简化需要大量重复的调用。（二维前缀和：[L0304](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)）
 	
 1. 图 Graph
+	
 	- [L1761 Minimum Degree of a Connected Trio in a Graph](./10_LeetCode/L1761-minimum-degree-of-a-connected-trio-in-a-graph.py)：1）用矩阵存储图的信息可能可以高效（但要看情况，反例见[L1766](./10_LeetCode/L1766-tree-of-coprimes.py)）；2）一个好用的排序+剪枝的思路和写法。
 	
 1. 堆 Heap
@@ -50,6 +51,13 @@
     - [L0472 Concatenated Words](L0472-concatenated-words.py)：还没学会。
 
 1. 数据结构复现 Data Structure Replication
+
+    - 哈希
+      - HashSet：简单实现（[L0705](./10_LeetCode/L0705-design-hashset.py)）
+      - HashMap：简单实现（[L0706](./10_LeetCode/L0706-design-hashmap.py)）
+        - OrderedDict[TBD]
+        - DefaultDict[TBD]
+
     - 堆队列[TBD]
     - 生成器[TBD]
     - 二叉树[TBD]
@@ -57,11 +65,7 @@
     - 双向链表
       - LRU Cache：一种带有清退机制的缓存结构。
         - O(1)时间基本实现（[L0146 LRU Cache](./10_LeetCode/L0146-lru-cache.py)）[TBD]
-        - 装饰器实现[TBD]。
-    - 集合 Collections
-      - HashSet：简单实现（[L0705](./10_LeetCode/L0705-design-hashset.py)）
-      - OrderedDict[TBD]
-      - DefaultDict[TBD]
+        - 装饰器实现[TBD]
 
 ## 数学 Math
 1. 抽样 Sampling
