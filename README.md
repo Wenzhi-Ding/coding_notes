@@ -59,6 +59,7 @@
         - O(1)时间基本实现（[L0146 LRU Cache](./10_LeetCode/L0146-lru-cache.py)）[TBD]
         - 装饰器实现[TBD]。
     - 集合 Collections
+      - HashSet：简单实现（[L0705](./10_LeetCode/L0705-design-hashset.py)）
       - OrderedDict[TBD]
       - DefaultDict[TBD]
 
