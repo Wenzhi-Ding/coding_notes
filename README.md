@@ -13,8 +13,9 @@
 1. 动态规划 Dynamic Programming
 	- [M210114 Complicate Probability](./30_Other_Source/M210114_Complicate_Probability.py)：三维的动态规划，计算复杂的概率问题。
 	- [M210122 Chocolate Game](./20_Tutorial/USC_DSO570_Analytics_Edge/Chocolate_Game): 二维动态规划，模拟机票、酒店的最优定价模型，计算最大期望收益。
-	- [L0638 Shopping Offers](./10_LeetCode/L0638-shopping-offers.py)：1）用`lru_cache`的装饰器来简化DP的编写；2）更重要的是体现了合理剪枝的威力。
+	- [L0638 Shopping Offers](./10_LeetCode/L0638-shopping-offers.py)：1）用`cache`的装饰器来简化DP的编写；2）更重要的是体现了合理剪枝的威力。
 	- [L0132 Palindrome Partitioning II](./10_LeetCode/L0132-palindrome-partitioning-ii.py)：两次动态规划，第一次用来做预处理。
+	- [L1815 Maximum Number of Groups Getting Fresh Donuts](./10_LeetCode/L1815-maximum-number-of-groups-getting-fresh-donuts.py)：状态压缩的动态规划（DFS、位运算、状态压缩）
 1. 回溯法 Backtracking
 	- [L0044 Wildcard Matching](./10_LeetCode/L0044_wildcard-matching.py)：体现了回溯法在正确的剪枝思路下的简洁和效率。
 	- [L0115 Distinct Subsequences](./10_LeetCode/L0115-distinct-subsequences.py)：优化递归的效率可以从转成循环+数组开始考虑。
@@ -57,6 +58,8 @@
    - [M210223 Portfolio Management](./30_Other_Source/M210223-portfolio-management.py)：用`scipy.optimize`模块求解非线性的规划问题。需要考虑可行边界。
 3. 离散规划 Discrete Optimization
    - [M210323 Dellmar Supply Chain](./20_Tutorial/USC_DSO570_Analytics_Edge/Dellmar)：将逻辑运算（非线性的）转为线性问题的凡范式，从而能够使用线性规划。
+4. 因数 Divisor
+   - [L1819 Number of Different Subsequences GCDs](./10_LeetCode/L1819-number-of-different-subsequences-gcds.py)：一个数组可以表示`nums[i] = gcd * rel_prime[i]`，`gcd`是数组`nums`的最大公约数，`rel_prime`是一个最大公约数为1的数组。
 
 ## 其他参考
 
