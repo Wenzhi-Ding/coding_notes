@@ -1,3 +1,5 @@
+# https://leetcode-cn.com/problems/maximum-number-of-groups-getting-fresh-donuts/
+
 from functools import cache
 
 class Solution:

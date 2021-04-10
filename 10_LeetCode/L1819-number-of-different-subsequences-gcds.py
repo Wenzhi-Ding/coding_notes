@@ -1,3 +1,5 @@
+# https://leetcode-cn.com/problems/number-of-different-subsequences-gcds/
+
 from math import gcd
 
 class Solution:
