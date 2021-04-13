@@ -59,6 +59,7 @@
 3. 离散规划 Discrete Optimization
    - [M210323 Dellmar Supply Chain](./20_Tutorial/USC_DSO570_Analytics_Edge/Dellmar)：将逻辑运算（非线性的）转为线性问题的凡范式，从而能够使用线性规划。
    - [M210410 Discrete Optimization Assignment](./20_Tutorial/USC_DSO570_Analytics_Edge/Discrete_Optimization)：非线性约束转换为线性约束，其实就是把边界画出来，用直线去拼出这个边界。通常需要涉及创建一些中间的线性变量。
+     - 此外，只要不涉及决策变量，都可以先做一些预处理。恰当的预处理可以显著减小后面约束的复杂度。
 4. 因数 Divisor
    - [L1819 Number of Different Subsequences GCDs](./10_LeetCode/L1819-number-of-different-subsequences-gcds.py)：一个数组可以表示`nums[i] = gcd * rel_prime[i]`，`gcd`是数组`nums`的最大公约数，`rel_prime`是一个最大公约数为1的数组。
 
