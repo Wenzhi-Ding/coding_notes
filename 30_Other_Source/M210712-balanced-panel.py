@@ -5,6 +5,8 @@ import itertools
 
 import pandas as pd
 
+df = pd.DataFrame()
+
 # Method 1: Monthly level and above
 balanced_idx = pd.DataFrame(
     itertools.product(
@@ -19,21 +21,19 @@ balanced_idx = pd.DataFrame(
 ## Method 2: More general
 
 # Generate consecutive time indicators
-start = pd.Timestamp('2017-12-09 00:00:00')
-end = pd.Timestamp('2020-03-27 00:00:00')
+df_lst = []
 
-idx = []
-while start < end:
-    idx.append(start)
-    start += pd.Timedelta(1, 'D')
+for ent, cur, s, e in df.groupby(['user_no', 'currency'])['date'].agg(['min', 'max']).reset_index().values:
+    ents = [ent]
+    curs = [cur]
+    times = [s]
 
-balanced_idx = pd.DataFrame(
-    itertools.product(
-        df[['user_no', 'currency']].drop_duplicates().values,  # Dimension 1: Combination of keys
-        idx  # Dimension 2: All dates
-    )
-    , columns=['user_no_currency', 'date']  # Assign column names
-)
+    while times[-1] < e:
+        times.append(times[-1] + pd.Timedelta(1, 'D'))
+        ents.append(ent)
+        curs.append(cur)
+        
+    df_lst.append(pd.DataFrame({'user_no': ents, 'currency': curs, 'date': times}))
 
-# Unpack the combined keys
-balanced_idx['user_no'], balanced_idx['currency'] = zip(*list(balanced_idx['user_no_currency'].values))
+dfs = pd.concat(df_lst)
+dfs.shape
