@@ -68,3 +68,4 @@
 
 - 拉不拉东算法与数据结构全教程（[Link](https://labuladong.github.io/algo/)）
 - 用Pandas构建平衡的面板：[M210712-balanced-panel](./30_Other_Source/M210712-balanced-panel.py)
+- 滚动匹配序列特征：[M211123-rolling-match-pattern](./30_Other_Source/M211123-rolling-match-pattern.py)
