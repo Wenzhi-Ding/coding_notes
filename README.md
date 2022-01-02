@@ -54,7 +54,7 @@
 
 ## 数学 Math
 1. 抽样 Sampling
-	- [M210216 Poker Probabilities](./30_Other_Source/M210216-poker-probabilities.py)：在做模拟的时候要关注概率分布及动态变化。扑克牌的玩法中多数为不放回抽样，如果直接用均匀分布或正态分布去模拟，就会算出错误的结果。
+  - [M210216 Poker Probabilities](./30_Other_Source/M210216-poker-probabilities.py)：在做模拟的时候要关注概率分布及动态变化。扑克牌的玩法中多数为不放回抽样，如果直接用均匀分布或正态分布去模拟，就会算出错误的结果。
 2. 非线性规划 Non-linear Programming
    - [M210223 Portfolio Management](./30_Other_Source/M210223-portfolio-management.py)：用`scipy.optimize`模块求解非线性的规划问题。需要考虑可行边界。
 3. 离散规划 Discrete Optimization
@@ -63,6 +63,8 @@
      - 此外，只要不涉及决策变量，都可以先做一些预处理。恰当的预处理可以显著减小后面约束的复杂度。
 4. 因数 Divisor
    - [L1819 Number of Different Subsequences GCDs](./10_LeetCode/L1819-number-of-different-subsequences-gcds.py)：一个数组可以表示`nums[i] = gcd * rel_prime[i]`，`gcd`是数组`nums`的最大公约数，`rel_prime`是一个最大公约数为1的数组。
+5. 等差数列
+   - [L0390 Elimination Game](./10_LeetCode/L0390-elimination-game.py)：数学的角度思考问题，并不一定是解析解，也可以是数学简化问题（抽象）+模拟的思路。
 
 ## 其他参考
 
