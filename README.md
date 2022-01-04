@@ -65,6 +65,8 @@
    - [L1819 Number of Different Subsequences GCDs](./10_LeetCode/L1819-number-of-different-subsequences-gcds.py)：一个数组可以表示`nums[i] = gcd * rel_prime[i]`，`gcd`是数组`nums`的最大公约数，`rel_prime`是一个最大公约数为1的数组。
 5. 等差数列
    - [L0390 Elimination Game](./10_LeetCode/L0390-elimination-game.py)：数学的角度思考问题，并不一定是解析解，也可以是数学简化问题（抽象）+模拟的思路。
+6. 博弈问题
+   - [L0390 Cat and Mouse](./99_Unsolved/L0913-cat-and-mouse.py)：动态规划解决博弈问题，清晰的逻辑思考是关键，识别出重要的边界状态和结束条件。
 
 ## 其他参考
 
