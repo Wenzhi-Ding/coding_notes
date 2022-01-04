@@ -66,7 +66,7 @@
 5. 等差数列
    - [L0390 Elimination Game](./10_LeetCode/L0390-elimination-game.py)：数学的角度思考问题，并不一定是解析解，也可以是数学简化问题（抽象）+模拟的思路。
 6. 博弈问题
-   - [L0390 Cat and Mouse](./99_Unsolved/L0913-cat-and-mouse.py)：动态规划解决博弈问题，清晰的逻辑思考是关键，识别出重要的边界状态和结束条件。
+   - [L0390 Cat and Mouse](./10_LeetCode/L0913-cat-and-mouse.py)：动态规划解决博弈问题，清晰的逻辑思考是关键，准确全面的识别出边界状态和结束条件。
 
 ## 其他参考
 
