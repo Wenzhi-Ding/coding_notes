@@ -11,6 +11,7 @@
 	- [L0563 Binary Tree Tilt](./10_LeetCode/L0563-binary-tree-tilt.py)：后序遍历。
 1. 广度优先搜索 Breadth-First-Search
     - [L1162 As Far from Land as Possible](./10_LeetCode/L1162-as-far-from-land-as-possible.py)：一个层序遍历的样例。
+    - [L1036 Escape a Large Maze](./10_LeetCode/L1036-escape-a-large-maze.py)：层序遍历+找短板剪枝。
 1. 动态规划 Dynamic Programming
 	- [M210114 Complicate Probability](./30_Other_Source/M210114_Complicate_Probability.py)：三维的动态规划，计算复杂的概率问题。
 	- [M210122 Chocolate Game](./20_Tutorial/USC_DSO570_Analytics_Edge/Chocolate_Game): 二维动态规划，模拟机票、酒店的最优定价模型，计算最大期望收益。
