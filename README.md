@@ -23,6 +23,7 @@
 1. 回溯法 Backtracking
 	- [L0044 Wildcard Matching](./10_LeetCode/L0044_wildcard-matching.py)：体现了回溯法在正确的剪枝思路下的简洁和效率。
 	- [L0115 Distinct Subsequences](./10_LeetCode/L0115-distinct-subsequences.py)：优化递归的效率可以从转成循环+数组开始考虑。
+	- [L1219 Path with Maximum Gold](./10_LeetCode/L1219-path-with-maximum-gold.py)：回溯的时候调用变量是拷贝而非引用，可以利用这一特性巧妙地记录回溯路径。（此外此题还有关于搜索路径的剪枝）
 1. 线性规划 Linear Programming
     - [M210211 Filatoi Riuniti](./20_Tutorial/USC_DSO570_Analytics_Edge/Filatoi_Riuniti)：线性规划及敏感性分析的经典例题。
 1. 二分查找 Binary Search
