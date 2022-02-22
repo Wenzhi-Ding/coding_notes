@@ -20,6 +20,7 @@
 	- [L0638 Shopping Offers](./10_LeetCode/L0638-shopping-offers.py)：1）用`cache`的装饰器来简化DP的编写；2）更重要的是体现了合理剪枝的威力。
 	- [L0132 Palindrome Partitioning II](./10_LeetCode/L0132-palindrome-partitioning-ii.py)：两次动态规划，第一次用来做预处理。
 	- [L1815 Maximum Number of Groups Getting Fresh Donuts](./10_LeetCode/L1815-maximum-number-of-groups-getting-fresh-donuts.py)：状态压缩的动态规划（DFS、位运算、状态压缩）
+	- [L1994 The Number of Good Subsets](./10_LeetCode/L1994-the-number-of-good-subsets.py)：位运算、状态压缩动态规划、大整数
 1. 回溯法 Backtracking
 	- [L0044 Wildcard Matching](./10_LeetCode/L0044_wildcard-matching.py)：体现了回溯法在正确的剪枝思路下的简洁和效率。
 	- [L0115 Distinct Subsequences](./10_LeetCode/L0115-distinct-subsequences.py)：优化递归的效率可以从转成循环+数组开始考虑。
