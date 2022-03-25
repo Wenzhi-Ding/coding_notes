@@ -60,7 +60,7 @@
 
 ## 数学 Math
 1. 抽样 Sampling
-  - [M210216 Poker Probabilities](./30_Other_Source/M210216-poker-probabilities.py)：在做模拟的时候要关注概率分布及动态变化。扑克牌的玩法中多数为不放回抽样，如果直接用均匀分布或正态分布去模拟，就会算出错误的结果。
+     - [M210216 Poker Probabilities](./30_Other_Source/M210216-poker-probabilities.py)：在做模拟的时候要关注概率分布及动态变化。扑克牌的玩法中多数为不放回抽样，如果直接用均匀分布或正态分布去模拟，就会算出错误的结果。
 2. 非线性规划 Non-linear Programming
    - [M210223 Portfolio Management](./30_Other_Source/M210223-portfolio-management.py)：用`scipy.optimize`模块求解非线性的规划问题。需要考虑可行边界。
 3. 离散规划 Discrete Optimization
@@ -76,6 +76,8 @@
    - [L2029 Stone Game IX](./10_LeetCode/L2029-stone-game-ix.py)：博弈问题往往可以通过归纳变成极其简单的问题。虽然实际情况是复杂的，但规则是简单的，所以往往可以将实际情况化简讨论。
 7. 贪心
    - [L0334 Increasing Triplet Subsequence](./10_LeetCode/L0334-increasing-triplet-subsequence.py)：贪心算法的一个迷你样例。
+8. 概率
+   - [M220325 Conditional Distribution](./30_Other_Source/M220325-conditional-distribution.ipynb)：可视化的呈现条件期望和条件方差的影响。
 
 ## 其他参考
 
