@@ -2,8 +2,6 @@
 
 分享我的代码练习（主要是为了方便自己以后参考），以下只列举一些个人觉得比较好的题目，会不定期增删。
 
-不会罗列算法和数据结构的基础复现（直接看`00_Algorithm`和`01_Data Structure`即可），只列应用（做题或工程）中遇到的有意思的思路和经验。
-
 ## 算法 Algorithm
 1. 深度优先搜索 Depth-First-Search
 	- [LI0408 First Common Ancestor](./10_LeetCode/LI0408-first-common-ancestor-lcci.py)：用递归写DFS的简洁性。
@@ -55,7 +53,6 @@
     - [1996 The Number of Weak Characters in the Game](./10_LeetCode/1996-the-number-of-weak-characters-in-the-game.py)：列表套列表+单调栈+空间复杂度优化
 1. 字典树 Trie
     - [L0208 Implement Trie Prefix Tree](./10_LeetCode/L0208-implement-trie-prefix-tree.py)：前缀字典树的基础实现。
-    - [L0472 Concatenated Words](L0472-concatenated-words.py)：还没学会。
 
 
 ## 数学 Math
@@ -64,7 +61,7 @@
 2. 非线性规划 Non-linear Programming
    - [M210223 Portfolio Management](./30_Other_Source/M210223-portfolio-management.py)：用`scipy.optimize`模块求解非线性的规划问题。需要考虑可行边界。
 3. 离散规划 Discrete Optimization
-   - [M210323 Dellmar Supply Chain](./20_Tutorial/USC_DSO570_Analytics_Edge/Dellmar)：将逻辑运算（非线性的）转为线性问题的凡范式，从而能够使用线性规划。
+   - [M210323 Dellmar Supply Chain](./20_Tutorial/USC_DSO570_Analytics_Edge/Dellmar)：将逻辑运算（非线性的）转为线性问题的范式，从而能够使用线性规划。
    - [M210410 Discrete Optimization Assignment](./20_Tutorial/USC_DSO570_Analytics_Edge/Discrete_Optimization)：非线性约束转换为线性约束，其实就是把边界画出来，用直线去拼出这个边界。通常需要涉及创建一些中间的线性变量。
      - 此外，只要不涉及决策变量，都可以先做一些预处理。恰当的预处理可以显著减小后面约束的复杂度。
 4. 因数 Divisor
@@ -79,8 +76,13 @@
 8. 概率
    - [M220325 Conditional Distribution](./30_Other_Source/M220325-conditional-distribution.ipynb)：可视化的呈现条件期望和条件方差的影响。
 
+# 数据处理
+
+- 用Pandas构建平衡的面板：[M210712-balanced-panel](./30_Other_Source/M210712-balanced-panel.py)
+- 在Pandas中将列表元素分配至多列（[Link](https://stackoverflow.com/a/69148256/8352445)）
+- 在Pandas选择多个范围的列（[Link](https://stackoverflow.com/a/72584885/8352445)）
+- 滚动匹配序列特征：[M211123-rolling-match-pattern](./30_Other_Source/M211123-rolling-match-pattern.py)
+
 ## 其他参考
 
 - 拉不拉东算法与数据结构全教程（[Link](https://labuladong.github.io/algo/)）
-- 用Pandas构建平衡的面板：[M210712-balanced-panel](./30_Other_Source/M210712-balanced-panel.py)
-- 滚动匹配序列特征：[M211123-rolling-match-pattern](./30_Other_Source/M211123-rolling-match-pattern.py)
