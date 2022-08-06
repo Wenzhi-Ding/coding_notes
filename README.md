@@ -79,6 +79,7 @@
 ## 数据处理
 
 - 用Pandas构建平衡的面板：[M210712-balanced-panel](./30_Other_Source/M210712-balanced-panel.py)
+- 用Pandas构建不平衡的面板：[M220806-unbalanced-panel](./30_Other_Source/M220806-unbalanced-panel.py)
 - 在Pandas中将列表元素分配至多列（[Link](https://stackoverflow.com/a/69148256/8352445)）
 - 在Pandas选择多个范围的列（[Link](https://stackoverflow.com/a/72584885/8352445)）
 - 滚动匹配序列特征：[M211123-rolling-match-pattern](./30_Other_Source/M211123-rolling-match-pattern.py)
