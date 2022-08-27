@@ -85,6 +85,7 @@
 - 滚动匹配序列特征：[M211123-rolling-match-pattern](./30_Other_Source/M211123-rolling-match-pattern.py)
 - Numpy加速运算：[M220411_accelerate_numpy](./20_Tutorial/M220411_accelerate_numpy.ipynb)
 - 迭代替换字符串：[M220814_finditer](./30_Other_Source/M220814_finditer.py)
+- 异步：[M220827_asyncio](./20_Tutorial/M220827_asyncio.py)
 
 ## 其他参考
 
