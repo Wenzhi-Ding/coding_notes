@@ -40,9 +40,9 @@ async def main5():
     task1 = asyncio.create_task(count(1))
     print("Tasks created")
     await count(3)
-    await count(4)
-    await task1
-    await task2
+    # await count(4)
+    # await task1
+    # await task2
 
 if __name__ == "__main__":
     # asyncio.run(main())
