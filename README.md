@@ -39,6 +39,8 @@
 	- [L1774 Closest Dessert Cost.](./10_LeetCode/L1774-closest-dessert-cost.py)：快速且占用小地枚举所有子集。
 	- [L0303 Range Sum Query Immutable](./10_LeetCode/L0303-range-sum-query-immutable.py)：通过对数组的预处理（前缀和）来简化需要大量重复的调用。（二维前缀和：[L0304](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)）
 1. 链表 ListNode
+1. 并查集 UnionFindSet
+    - [L1971 Find if Path Exists in Graph](https://leetcode.cn/problems/find-if-path-exists-in-graph/description/)：并查集的基本思想是构建/压缩树，使得只需检查两个节点是否在一个树中，就可以判断两点是否连通。
 1. 图 Graph
 	
 	- [L1761 Minimum Degree of a Connected Trio in a Graph](./10_LeetCode/L1761-minimum-degree-of-a-connected-trio-in-a-graph.py)：1）用矩阵存储图的信息可能可以高效（但要看情况，反例见[L1766](./10_LeetCode/L1766-tree-of-coprimes.py)）；2）一个好用的排序+剪枝的思路和写法。
