@@ -48,6 +48,7 @@
 	- [L0703 Kth Largest Element in a Stream](./10_LeetCode/L0703-kth-largest-element-in-a-stream.py)：一道基础的堆队列题目。
 	- [L1675 Minimize Deviation in Array](./10_LeetCode/L1675-minimize-deviation-in-array.py) ：1）体现了复杂问题的优化首先应从数学本质的角度思考；2）体现了堆队列处理最大最小值问题的时间效率性。
 	- [L1792 Maximum Average Pass Ratio](./10_LeetCode/L1792-maximum-average-pass-ratio.py)：Python内置的`heapq.heapify`可以直接用于多维数组，按数组的第一个元素排序。所以可以轻松维护`[sort_key, value1, value2...]`这样的结构，能够完成更复杂的任务。
+        - [L1801](./10_LeetCode/L1801-number-of-orders-in-the-backlog.py)类似，在仅需要按顺序索引，不需要按键值索引时，可以直接维护一个堆，而不需要另外再维护一个字典。
 1. 栈 Stack
     - [L1766 Tree of Coprimes](./10_LeetCode/L1766-tree-of-coprimes.py)：1）栈+DFS的样例，也涉及了树的存储问题；2）重要思路：根据数据量选择突破口。
     - [L1776 Car Fleet II](./10_LeetCode/L1776-car-fleet-ii.py)：一个单调栈的好例子，为以下问题提供了参考：1）什么时候可以用栈？2）怎么从问题中提炼出栈的维护规则？3）栈在Python中的正确使用姿势。（其他相关：[L0496](./10_LeetCode/L0496-next-greater-element-i.py)）
