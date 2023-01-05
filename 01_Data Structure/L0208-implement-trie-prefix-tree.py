@@ -5,6 +5,8 @@
 # Runtime: 208 ms (24%)
 # Memory: 32.9 MB (16%)
 from collections import defaultdict
+
+
 class Node:
 
     def __init__(self):
@@ -13,7 +15,7 @@ class Node:
 
     def get(self, char):
         return self.child[char]  # 返回某个节点
-    
+
     def put(self, char):
         self.child[char] = Node()  # 在对应位置创建一个节点
         return self.child[char]
@@ -34,7 +36,6 @@ class Trie:
         """
         self.root = {}  # 创建空的根节点
 
-
     def insert(self, word: str) -> None:
         """
         Inserts a word into the trie.
@@ -44,7 +45,6 @@ class Trie:
             if not c in pt: pt[c] = {}  # 若不存在则建节点
             pt = pt[c]
         pt['#'] = '#'  # 用这个来标识结尾
-
 
     def search(self, word: str) -> bool:
         """
@@ -65,8 +65,6 @@ class Trie:
             if not c in pt: return False
             pt = pt[c]
         return True
-
-
 
 
 # Your Trie object will be instantiated and called as such:
