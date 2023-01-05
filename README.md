@@ -17,16 +17,16 @@
 	- [M210122 Chocolate Game](./20_Tutorial/USC_DSO570_Analytics_Edge/Chocolate_Game): 二维动态规划，模拟机票、酒店的最优定价模型，计算最大期望收益。
 	- [L0638 Shopping Offers](./10_LeetCode/L0638-shopping-offers.py)：1）用 `cache` 的装饰器来简化 DP 的编写；2）更重要的是体现了合理剪枝的威力。
 	- [L0132 Palindrome Partitioning II](./10_LeetCode/L0132-palindrome-partitioning-ii.py)：两次动态规划，第一次用来做预处理。
-	- [L1815 Maximum Number of Groups Getting Fresh Donuts](./10_LeetCode/L1815-maximum-number-of-groups-getting-fresh-donuts.py)：状态压缩的动态规划（DFS、位运算、状态压缩）
-	- [L1994 The Number of Good Subsets](./10_LeetCode/L1994-the-number-of-good-subsets.py)：位运算、状态压缩动态规划、大整数
+	- [L1815 Maximum Number of Groups Getting Fresh Donuts](./10_LeetCode/L1815-maximum-number-of-groups-getting-fresh-donuts.py)：状态压缩的动态规划（DFS、位运算、状态压缩）。
+	- [L1994 The Number of Good Subsets](./10_LeetCode/L1994-the-number-of-good-subsets.py)：位运算、状态压缩动态规划、大整数。
 1. 回溯法 Backtracking
 	- [L0044 Wildcard Matching](./10_LeetCode/L0044_wildcard-matching.py)：体现了回溯法在正确的剪枝思路下的简洁和效率。
 	- [L0115 Distinct Subsequences](./10_LeetCode/L0115-distinct-subsequences.py)：优化递归的效率可以从转成循环+数组开始考虑。
-	- [L1219 Path with Maximum Gold](./10_LeetCode/L1219-path-with-maximum-gold.py)：回溯的时候调用变量是拷贝而非引用，可以利用这一特性巧妙地记录回溯路径。（此外此题还有关于搜索路径的剪枝）
+	- [L1219 Path with Maximum Gold](./10_LeetCode/L1219-path-with-maximum-gold.py)：回溯的时候调用变量是拷贝而非引用，可以利用这一特性巧妙地记录回溯路径（此外此题还有关于搜索路径的剪枝）。
 1. 线性规划 Linear Programming
     - [M210211 Filatoi Riuniti](./20_Tutorial/USC_DSO570_Analytics_Edge/Filatoi_Riuniti)：线性规划及敏感性分析的经典例题。
 1. 二分查找 Binary Search
-    - [L1760 Minimum Limit of Balls in a Bag](./10_LeetCode/L1760-minimum-limit-of-balls-in-a-bag.py)：二分查找的实际应用。查找的逻辑不一定是简单的数值比较。只要有目标函数、序列有单调性，都可以二分查找。（其他相关：[L0354](./10_LeetCode/L0354-russian-doll-envelopes.py)）
+    - [L1760 Minimum Limit of Balls in a Bag](./10_LeetCode/L1760-minimum-limit-of-balls-in-a-bag.py)：二分查找的实际应用。查找的逻辑不一定是简单的数值比较。只要有目标函数、序列有单调性，都可以二分查找（其他相关：[L0354](./10_LeetCode/L0354-russian-doll-envelopes.py)）。
 1. 滑窗 Sliding Window
     - [L0995 Minimum Number of K Consecutive Bit Flips](./10_LeetCode/L0995-minimum-number-of-k-consecutive-bit-flips.py)：数组长度 N，窗口长度 K。纯模拟操作 O(NK)，优化成滑窗则变为 O(N)。
 1. 双指针 Two Pointers
@@ -37,7 +37,8 @@
 1. 数组/矩阵 Array/Matrix
 	- [M210116 Monte Carlo](./30_Other_Source/M210116_Monte_Carlo.py)：通过矩阵运算极大的加速大规模模拟（要求运算逻辑可向量化）。
 	- [L1774 Closest Dessert Cost](./10_LeetCode/L1774-closest-dessert-cost.py)：快速且占用小地枚举所有子集。
-	- [L0303 Range Sum Query Immutable](./10_LeetCode/L0303-range-sum-query-immutable.py)：通过对数组的预处理（前缀和）来简化需要大量重复的调用。（二维前缀和：[L0304](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)）
+	- [L0303 Range Sum Query Immutable](./10_LeetCode/L0303-range-sum-query-immutable.py)：通过对数组的预处理（前缀和）来简化需要大量重复的调用。
+    - [L0304](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)：二维前缀和。
 1. 链表 ListNode
 1. 并查集 UnionFindSet
     - [L1971 Find if Path Exists in Graph](https://leetcode.cn/problems/find-if-path-exists-in-graph/description/)：并查集的基本思想是构建/压缩树，使得只需检查两个节点是否在一个树中，就可以判断两点是否连通。
@@ -53,11 +54,14 @@
     - [L1766 Tree of Coprimes](./10_LeetCode/L1766-tree-of-coprimes.py)：1）栈 + DFS 的样例，也涉及了树的存储问题；2）重要思路：根据数据量选择突破口。
     - [L1776 Car Fleet II](./10_LeetCode/L1776-car-fleet-ii.py)：一个单调栈的好例子，为以下问题提供了参考：1）什么时候可以用栈？2）怎么从问题中提炼出栈的维护规则？3）栈在 Python 中的正确使用姿势。（其他相关：[L0496](./10_LeetCode/L0496-next-greater-element-i.py)）
     - [L0224 Basic Calculator](./10_LeetCode/L0224-basic-calculator.py)：用栈以更高的效率实现等价于递归的操作（而且写起来比递归简单）。
-    - [1996 The Number of Weak Characters in the Game](./10_LeetCode/1996-the-number-of-weak-characters-in-the-game.py)：列表套列表 + 单调栈 + 空间复杂度优化
+    - [L1996 The Number of Weak Characters in the Game](./10_LeetCode/1996-the-number-of-weak-characters-in-the-game.py)：列表套列表 + 单调栈 + 空间复杂度优化。
+    - [L0146 LRU Cache](./01_Data_Structure/L0146-lru-cache.py)：LRU 缓存机制可以视为一种特殊的栈。
 1. 字典树 Trie
-    - [L0208 Implement Trie Prefix Tree](./01_Data Structure/L0208-implement-trie-prefix-tree.py)：前缀字典树的基础实现。
+    - [L0208 Implement Trie Prefix Tree](./01_Data_Structure/L0208-implement-trie-prefix-tree.py)：前缀字典树的基础实现。
     - [L1803 Count Pairs with XOR in a Range](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/description/)：字典树思想解决计算问题。
-
+1. 哈希表 HashMap
+    - [L0705 Design HashSet](./01_Data_Structure/L0705-design-hashset.py)：哈希集的基本实现。
+    - [L0706 Design HashMap](./01_Data_Structure/L0706-design-hashmap.py)：哈希表的基本实现。
 
 ## 数学 Math
 1. 抽样 Sampling
