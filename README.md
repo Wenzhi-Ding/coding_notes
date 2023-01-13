@@ -62,6 +62,7 @@
 1. 哈希表 HashMap
     - [L0705 Design HashSet](./01_Data_Structure/L0705-design-hashset.py)：哈希集的基本实现。
     - [L0706 Design HashMap](./01_Data_Structure/L0706-design-hashmap.py)：哈希表的基本实现。
+    - [L2287 Rearrange Characters to Make Target String](https://leetcode.cn/problems/rearrange-characters-to-make-target-string)：在 Python 中，`collections.Counter` 是一个 `collections.defaultdict`，即可以查询字典中不存在的 `key`，并返回默认值（对于 `collections.Counter` 而言是 0）
 
 ## 数学 Math
 1. 抽样 Sampling
