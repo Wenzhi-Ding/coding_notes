@@ -45,6 +45,7 @@
 1. 图 Graph
 	
 	- [L1761 Minimum Degree of a Connected Trio in a Graph](./10_LeetCode/L1761-minimum-degree-of-a-connected-trio-in-a-graph.py)：1）用矩阵存储图的信息可能可以高效（但要看情况，反例见[L1766](./10_LeetCode/L1766-tree-of-coprimes.py)）；2）一个好用的排序+剪枝的思路和写法。
+    - [Uniswap V3 Core](https://docs.uniswap.org/contracts/v3/reference/core/libraries/TickBitmap)：用 Bitmap 来存储一个序列中各个元素的状态，最终用一个大整数即可表示。
 1. 堆 Heap
 	- [L0703 Kth Largest Element in a Stream](./10_LeetCode/L0703-kth-largest-element-in-a-stream.py)：一道基础的堆队列题目。
 	- [L1675 Minimize Deviation in Array](./10_LeetCode/L1675-minimize-deviation-in-array.py) ：1）体现了复杂问题的优化首先应从数学本质的角度思考；2）体现了堆队列处理最大最小值问题的时间效率性。
